@@ -9,6 +9,12 @@ function App() {
         </header>
         <p>Gallery goes here</p>
         <img src="images/goat_small.jpg"/>
+        <button>Like</button>
+        <img src ="images/lake.jpg" width="150" height="150"/>
+        <button>Like</button>
+        <img src="images/sunset.jpg" width="150" height="150"/>
+        <button>Like</button>
+
       </div>
     );
 }
