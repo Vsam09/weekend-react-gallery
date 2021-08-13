@@ -11,10 +11,10 @@ Your project description goes here. What problem did you solve? How did you solv
 
 [] Components
     [] GalleryList
-    [] GalleryItem
+    [x] GalleryItem
         []Ability to click image
         []Toggle between image and description
-        [] A 'like' button along with the description
+        [x] A 'like' button along with the description
 []
 
 
