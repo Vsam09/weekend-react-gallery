@@ -10,12 +10,12 @@ Your project description goes here. What problem did you solve? How did you solv
 
 
 [] Components
-    [] GalleryList
+    [x] GalleryList
     [x] GalleryItem
-        []Ability to click image
+        [x]Ability to click image
         []Toggle between image and description
-        [x] A 'like' button along with the description
-[]
+        [x] A 'like' button that captures 'like' count
+[]Axios 'PUT' updates the likes count in gallery data
 
 
 

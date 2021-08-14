@@ -27,20 +27,6 @@ function App() {
     });
   }
 
-  // const postGallery = (event) => {
-  //   event.preventDefault();
-  //   Axios({
-  //     method: 'POST',
-  //     url: '/gallery',
-  //     data: {galleryList: galleryList}
-  //   }).then(response => {
-  //     console.log('POST /gallery', response)
-  //     fetchGalleryList();
-
-  //   }).catch((error) => {
-  //     console.log('POST /gallery error', error)
-  //   })
-  // }
 
 
     return (
