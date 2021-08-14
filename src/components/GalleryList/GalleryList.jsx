@@ -6,11 +6,6 @@ function GalleryList({galleryList}) {
         <div>
         {galleryList.map(item => < GalleryItem key={item.id} item={item} />)}
         </div>
-        <div>
-            <button>Like</button>
-            <button>Like</button>
-            
-        </div>
 
         </>
     );
