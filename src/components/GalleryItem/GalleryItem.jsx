@@ -1,31 +1,28 @@
 import { useState } from "react";
 
 
-function GalleryItem({item}){
-   console.log('Gallery item is', item)
-
+function GalleryItem({item, updateGalleryCount}){
+    //Props and States is posted up here!!
     let [imgClick, setImgClick] = useState(false);
-    let [likeClick, setLikeClick] = useState(0);
 
+    //Create Img onClick to toggle between image and description
     const onImgClick = () => {
        if (!imgClick) {
            setImgClick(true)
+           setTimeout(() => {
+            setImgClick(false);
+           }, 4000)    
     }};
-    const onLikeClick = () => {
-        setLikeClick(likeClick + 1)
-       };
     
     return(
         <>
-        {!imgClick ?
-        <>
-        < img onClick={onImgClick} key={item.id} src={item.path} text={item.description} width="150" height="150"/>
-        </> :
-        item.description}
         <div>
-            <p>{likeClick} People likes this photo</p>
-        <button onClick={onLikeClick}>Like</button>
+           {!imgClick ? <> <img onClick={onImgClick} className="outPut" key={item.id} src={item.path} />
+           </> : item.description}
+            <p> {item.likes} People likes this photo</p>
+            <button onClick={( ) => updateGalleryCount(item.id)}>Like</button>
         </div>
+
         </>
     )
 }
