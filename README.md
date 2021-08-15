@@ -1,12 +1,9 @@
 # Project Name
-
-[Project Instructions](./INSTRUCTIONS.md), this line may be removed once you have updated the README.md
-
 ## Description
 
 Your project description goes here. What problem did you solve? How did you solve it?
 
-- Create a gallery where images I share to have a button option to like the image and a description about the image.
+- Create a gallery where images I share to have a button option to like the image and a description about the image onClick
 
 
 [x] Components
